@@ -12,7 +12,7 @@ def q_derivate(x):
 def basit_iterasyon(a,b,epsilon):
     
     while True:
-        
+        pass
 
 if __name__ == "__main__":
     basit_iterasyon(0.5,1,0.01)
