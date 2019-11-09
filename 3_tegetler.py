@@ -7,7 +7,7 @@ def y_derivate(x):
 def y_2_derivate(x):
     return math.cos(x)
 def q(x):
-    return x-(y(x)/y_derivate(x))
+    return x-(y(x)/y_derivate(x)) 
 
 
 def tegetler(a,b,epsilon):

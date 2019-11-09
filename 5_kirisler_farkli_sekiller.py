@@ -5,7 +5,7 @@ def y(x):
 def y_derivate(x):
     return 1+math.sin(x)
 def y_2_derivate(x):
-    return math.cos(x)
+    return math.cos(x) 
 def q(x,x0):
     return (x0*y(x)-x*y(x0))/(y(x)-y(x0))
 

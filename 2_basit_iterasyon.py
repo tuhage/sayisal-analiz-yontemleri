@@ -7,7 +7,7 @@ def q(x):
     return math.cos(x)
 
 def q_derivate(x):
-    return -math.sin(x)
+    return -math.sin(x) 
     
 def basit_iterasyon(a,b,epsilon):
     x=q(b)

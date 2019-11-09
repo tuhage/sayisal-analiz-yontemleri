@@ -9,7 +9,7 @@ def y_2_derivate(x):
 def qk(x,x0):
     return (x0*y(x)-x*y(x0))/(y(x)-y(x0))
 def qt(x):
-    return x-(y(x)/y_derivate(x))
+    return x-(y(x)/y_derivate(x)) 
 
 
 def tegetlervekirisler(a,b,epsilon):
