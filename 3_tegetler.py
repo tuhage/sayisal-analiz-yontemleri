@@ -27,4 +27,4 @@ def tegetler(a,b,epsilon):
 
 
 if __name__ == "__main__":
-    tegetler(0.5,1,0.01)
+    tegetler(0,1,0.01)
