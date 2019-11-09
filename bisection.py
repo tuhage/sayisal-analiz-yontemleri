@@ -3,14 +3,11 @@ import math
 def y(x):
     return x-math.cos(x)
 
-def q(x):
-    return math.cos(x)
-
 def bisection(a,b,epsilon):
     
     while True:
         c=(a+b)/2
-        print("c = ",c)
+        #print("c = ",c)
         if y(c)>0:
             if y(a)<0:
                 b=c
